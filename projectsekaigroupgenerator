@@ -21,3 +21,5 @@ def projectsekaigroupgenerator():
 ...      if randomgroup == 5:
 ...           for x in nightcordat25:
 ...                print(x)
+
+- made using python 3.13
