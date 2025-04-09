@@ -1,0 +1,23 @@
+def projectsekaigroupgenerator():
+...      leo_need = ["ichika", "saki", "honami", "shiho"]
+...      more_more_jump = ["minori", "haruka", "airi", "shizuku"]
+...      vivid_bad_squad = ["kohane", "an", "akito", "toya"]
+...      wonderlands_showtime = ["tsukasa", "emu", "nene", "rui"]
+...      nightcordat25 = ["kanade", "mafuyu", "ena", "mizuki"]
+...      import random
+...      randomgroup = random.randint(1, 5)
+...      if randomgroup == 1:
+...           for x in leo_need:
+...                print(x)
+...      if randomgroup == 2:
+...           for x in more_more_jump:
+...                print(x)
+...      if randomgroup == 3:
+...           for x in vivid_bad_squad:
+...                print(x)
+...      if randomgroup == 4:
+...           for x in wonderlands_showtime:
+...                print(x)
+...      if randomgroup == 5:
+...           for x in nightcordat25:
+...                print(x)
